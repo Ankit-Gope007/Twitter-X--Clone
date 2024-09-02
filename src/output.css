@@ -588,8 +588,16 @@ video {
   }
 }
 
+.collapse {
+  visibility: collapse;
+}
+
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
 }
 
 .left-\[520px\] {
@@ -638,6 +646,26 @@ video {
 
 .top-\[47px\] {
   top: 47px;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[200px\] {
+  left: 200px;
+}
+
+.left-\[100px\] {
+  left: 100px;
+}
+
+.left-\[120px\] {
+  left: 120px;
+}
+
+.left-\[110px\] {
+  left: 110px;
 }
 
 .mx-auto {
@@ -772,6 +800,34 @@ video {
   margin-top: 95px;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
+.ml-\[5px\] {
+  margin-left: 5px;
+}
+
+.ml-\[2px\] {
+  margin-left: 2px;
+}
+
+.ml-\[150px\] {
+  margin-left: 150px;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
 .flex {
   display: flex;
 }
@@ -816,8 +872,16 @@ video {
   height: 80px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
 .w-1\/2 {
   width: 50%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
 }
 
 .w-\[100px\] {
@@ -883,6 +947,66 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[00px\] {
+  width: 00px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[15\%\] {
+  width: 15%;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[270px\] {
+  width: 270px;
+}
+
+.w-\[290px\] {
+  width: 290px;
 }
 
 .cursor-pointer {
@@ -1115,6 +1239,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1145,7 +1274,48 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:left-\[520px\] {
+    left: 520px;
+  }
+
+  .md\:ml-14 {
+    margin-left: 3.5rem;
+  }
+
+  .md\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .md\:ml-\[200px\] {
+    margin-left: 200px;
+  }
+
   .md\:block {
     display: block;
+  }
+
+  .md\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .md\:w-\[235px\] {
+    width: 235px;
+  }
+
+  .md\:w-\[1400px\] {
+    width: 1400px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .md\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
